@@ -53,5 +53,5 @@ def gen_qrcode(string, path, logo=""):
         img.paste(icon, (w, h), icon)
     img.save(path)
 m_string = "中信证券高效学习小组"
-path = "./高效学习小组.jpg"
+path = "./citics_coder.png"
 qrcode_generator = gen_qrcode(m_string,path)
