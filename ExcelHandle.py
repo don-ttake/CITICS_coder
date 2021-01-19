@@ -1,4 +1,14 @@
+"""
+Author: Mingchen Li
+Occupation: CITICS Investment
+Email:lmc9781@outlook.com
+Abstract:
+    this is some script that dedicates for beginner to warm up using python and openpyxl
+    Sophisticated version will be ExcelHandlerPro
+"""
 import xlrd
+#xlrd不支持xlsx了，只支持xls
+
 import openpyxl
 # 给出excel文件绝对路径
 loc = ("nasdaq100.xlsx")
@@ -28,4 +38,3 @@ for cell in list(sheet.columns)[2]:  #获取第三列的数据
     print(cell.value,end=" ")
 print()
 
-#https://blog.csdn.net/sinat_28576553/article/details/81275650
