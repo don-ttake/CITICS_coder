@@ -4,7 +4,7 @@ Occupation: CITICS Investment
 Email:lmc9781@outlook.com
 Abstract:
     this is some script that dedicates for beginner to warm up using python and openpyxl
-    Sophisticated version will be ExcelHandlerPro
+    Sophisticated version will be ExcelHandlePro
 """
 import xlrd
 #xlrd不支持xlsx了，只支持xls
